@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Menu } from "lucide-react";
 import Link from "next/link";
 
 const Navbar = () => {

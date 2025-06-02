@@ -2,7 +2,6 @@ import AboutSection from "@/components/AboutSection";
 import GallerySection from "@/components/GallerySection";
 import Hero from "@/components/Hero";
 import HeroText from "@/components/HeroText";
-import HorizontalSliderGallery from "@/components/HorizontalSliderGallery";
 import Navbar from "@/components/Navbar";
 import content from "@/data/content.json";
 
