@@ -29,7 +29,7 @@ export default function HorizontalSliderGallery({
   };
 
   return (
-    <div className="w-[450px] h-[1200px] shrink-0 rounded-xl">
+    <div className="w-[450px] min-h-[550px] shrink-0 rounded-xl flex flex-col">
       <div className="relative w-full h-[60%] overflow-hidden rounded-xl">
         <Image
           src={images[imageIndex]}

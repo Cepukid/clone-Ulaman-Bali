@@ -22,3 +22,10 @@ body {
   color: var(--foreground);
   font-family: var(--font-americana);
 }
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hidden {
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
+}

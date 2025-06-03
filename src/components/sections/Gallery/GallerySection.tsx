@@ -40,7 +40,7 @@ const GallerySection = ({ heading, items }: GallerySectionProps) => {
   }, []);
 
   return (
-    <section id="gallery" className="w-full pl-20 pr-10 relative mt-20">
+    <section id="gallery" className="w-full pl-20 pr-10 relative mt-20 overflow-hidden">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-[#9c7b3c]">{heading}</h2>
       </div>
@@ -75,7 +75,7 @@ const GallerySection = ({ heading, items }: GallerySectionProps) => {
         <div
           ref={scrollRef}
           onScroll={handleScrollCheck}
-          className="flex gap-6 overflow-x-auto px-2 scrollbar-hide scroll-smooth"
+           className="flex gap-6 overflow-x-auto px-2 scroll-smooth scrollbar-hidden"
         >
           {items.map((item, index) => (
             <HorizontalSliderGallery
