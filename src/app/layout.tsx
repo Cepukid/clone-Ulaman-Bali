@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { americana } from './fonts';
+import { americana } from '@/styles/fonts';
 
 export const metadata: Metadata = {
   title: "Welcome • Ulaman Eco Luxury Resort",

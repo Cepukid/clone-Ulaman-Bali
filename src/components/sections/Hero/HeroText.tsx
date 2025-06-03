@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { FadeIn } from './FadeIn';
+import { FadeIn } from '@/components/common/FadeIn';
 
 const HeroScrollText = () => {
   const [scrollPos, setScrollPos] = useState(0);

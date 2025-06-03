@@ -1,0 +1,117 @@
+{
+  "sections": [
+    {
+      "type": "hero",
+      "data": {
+        "alt": "Ulaman Eco Luxury Resort",
+        "image": "/assets/images/hero/ZiO2APPdc1huKpxk_eco-resort-bali.jpg",
+        "video": "https://www.youtube.com/embed/pqkVOxt7Tk4?enablejsapi=1&autoplay=1&loop=1&controls=0&muted=1&rel=0&playlist=pqkVOxt7Tk4&vq=hd1440&origin=https%3A%2F%2Fulamanbali.com&widgetid=1&forigin=https%3A%2F%2Fulamanbali.com%2F&aoriginsup=1&vf=2"
+      }
+    },
+    {
+      "type": "heroText",
+      "data": {
+        "heading": "Embrace Nature",
+        "subheading": "Experience sustainable luxury amidst Bali’s lush jungle"
+      }
+    },
+    {
+      "type": "about",
+      "data": {
+        "image": "https://images.prismic.io/ulaman/Zpcs2R5LeNNTxOAv_ulaman.jpg?auto=format,compress",
+        "alt": "Ulaman Resort Spa",
+        "heading": "An award-winning eco-luxury resort offering a unique hideaway experience.",
+        "paragraphs": [
+          "We believe nature and luxury can coexist. Ulaman Eco Luxury Resort offers a secluded, lush haven with luxurious amenities and impeccable service.",
+          "Immerse yourself in traditional Balinese culture and leave feeling renewed, all while minimizing your ecological footprint. Recharge your mind, body, and soul in this unique holistic retreat."
+        ],
+        "linkText": "ABOUT US",
+        "linkHref": "/about"
+      }
+    },
+    {
+      "type": "gallery",
+      "data": {
+        "heading": "Discover cozy elegance, where tranquility meets Bali’s serene beauty.",
+        "items": [
+          {
+            "title": "Floating Lake",
+            "description": "A luxurious floating villa on Ulaman's bio-filtered lake.",
+            "images": [
+              "https://images.prismic.io/ulaman/ZjNQMkMTzAJOCfIQ_best-resort-ulaman.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8aWtHYXtT4Qk_lakevillabali.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8KWtHYXtT4Qj_lakevilla2.jpg?auto=format,compress"]
+          },
+          {
+            "title": "Cocoon Jungle",
+            "description": "Indulge in an unparalleled blend of exotic elegance and coziness.",
+            "images": [
+              "https://images.prismic.io/ulaman/ZjNQMkMTzAJOCfIQ_best-resort-ulaman.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8aWtHYXtT4Qk_lakevillabali.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8KWtHYXtT4Qj_lakevilla2.jpg?auto=format,compress"]
+          },
+          {
+            "title": "Avatar Tree House",
+            "description": "Experience luxury in an avatar-inspired sky villa with 180° views.",
+            "images": [
+              "https://images.prismic.io/ulaman/ZjNQMkMTzAJOCfIQ_best-resort-ulaman.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8aWtHYXtT4Qk_lakevillabali.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8KWtHYXtT4Qj_lakevilla2.jpg?auto=format,compress"]
+          },
+          {
+            "title": "Jungle Garden Pool",
+            "description": "An ultimate private pool retreat at Ulaman.",
+            "images": [
+              "https://images.prismic.io/ulaman/ZjNQMkMTzAJOCfIQ_best-resort-ulaman.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8aWtHYXtT4Qk_lakevillabali.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8KWtHYXtT4Qj_lakevilla2.jpg?auto=format,compress"]
+          },
+          {
+            "title": "Grand Lagoon Private Pool",
+            "description": "Indulge in an exclusive riverside villa with jungle lagoon view.",
+            "images": [
+              "https://images.prismic.io/ulaman/ZjNQMkMTzAJOCfIQ_best-resort-ulaman.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8aWtHYXtT4Qk_lakevillabali.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8KWtHYXtT4Qj_lakevilla2.jpg?auto=format,compress"]
+          },
+          {
+            "title": "Ulin Poolside",
+            "description": "A luxurious jungle ground-floor oasis with direct access to the infinity pool.",
+            "images": [
+              "https://images.prismic.io/ulaman/ZjNQMkMTzAJOCfIQ_best-resort-ulaman.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8aWtHYXtT4Qk_lakevillabali.jpg?auto=format,compress",
+              "https://images.prismic.io/ulaman/Zlbe8KWtHYXtT4Qj_lakevilla2.jpg?auto=format,compress"]
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "data": {
+        "heading": "Book one of our special packages for a getaway you’ll never forget.",
+        "items": [
+          {
+            "title": "The Lovers Getaway",
+            "description": "3 Days / 2 Nights",
+            "images": ["https://images.prismic.io/ulaman/ZjrlVEMTzAJOCn4M_loversGetaway.jpg?auto=format,compress"]
+          },
+          {
+            "title": "The Wonders Of Wellness",
+            "description": "4 Days / 3 Nights",
+            "images": ["https://images.prismic.io/ulaman/ZnWOM5bWFbowew-4_eco-retreat.jpg?auto=format,compress"]
+          },
+          {
+            "title": "The Avatar Experience",
+            "description": "3 Days / 2 Nights",
+            "images": ["https://images.prismic.io/ulaman/Zjrn-kMTzAJOCn4c_eco-luxury-hotel-bali.jpg?auto=format,compress"]
+          },
+          {
+            "title": "The Ultimate Honeymoon",
+            "description": "3 Days / 2 Nights",
+            "images": ["https://images.prismic.io/ulaman/ZjebwkMTzAJOCiml_Ulaman-eco-retreat.jpg?auto=format,compress"]
+          }
+        ]
+      }
+    }
+  ]
+}

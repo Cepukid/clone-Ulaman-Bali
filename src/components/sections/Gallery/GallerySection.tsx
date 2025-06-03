@@ -1,17 +1,27 @@
 "use client";
-import content from "@/data/content.json";
 import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import HorizontalSliderGallery from "./HorizontalSliderGallery";
+import HorizontalSliderGallery from "@/components/sections/Gallery/HorizontalSliderGallery";
 
-const GallerySection = () => {
+interface GalleryItem {
+  title: string;
+  description: string;
+  images: string[];
+}
+
+interface GallerySectionProps {
+  heading: string;
+  items: GalleryItem[];
+}
+
+const GallerySection = ({ heading, items }: GallerySectionProps) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [atStart, setAtStart] = useState(true);
   const [atEnd, setAtEnd] = useState(false);
+
   const handleScrollCheck = () => {
     if (!scrollRef.current) return;
     const el = scrollRef.current;
-
     setAtStart(el.scrollLeft <= 0);
     setAtEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 1);
   };
@@ -24,15 +34,15 @@ const GallerySection = () => {
       });
     }
   };
+
   useEffect(() => {
     handleScrollCheck();
   }, []);
+
   return (
     <section id="gallery" className="w-full pl-20 pr-10 relative mt-20">
       <div className="max-w-6xl mx-auto text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#9c7b3c]">
-          Discover cozy elegance, where tranquility <br /> meets Bali’s serene beauty.
-        </h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#9c7b3c]">{heading}</h2>
       </div>
 
       <div className="flex flex-row gap-5 items-start">
@@ -60,15 +70,14 @@ const GallerySection = () => {
           >
             <ArrowRight size={20} className="mx-auto" />
           </button>
-
         </div>
 
         <div
           ref={scrollRef}
-           onScroll={handleScrollCheck}
+          onScroll={handleScrollCheck}
           className="flex gap-6 overflow-x-auto px-2 scrollbar-hide scroll-smooth"
         >
-          {content.gallery.map((item, index) => (
+          {items.map((item, index) => (
             <HorizontalSliderGallery
               key={index}
               title={item.title}
